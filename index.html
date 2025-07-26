@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dark Chat App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="app">
+    <header>
+      <h1>🔥 Chat App</h1>
+      <button id="login-btn">Login with Google</button>
+      <button id="logout-btn" style="display:none;">Logout</button>
+    </header>
+
+    <main id="chat-window">
+      <div id="messages"></div>
+    </main>
+
+    <footer>
+      <input type="text" id="message-input" placeholder="Type your message..." />
+      <button id="send-btn">Send</button>
+    </footer>
+  </div>
+
+  <script type="module" src="./script.js"></script>
+</body>
+
+</html>
